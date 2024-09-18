@@ -1,0 +1,62 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Render4.vcxproj, Render5.vcxproj, Render7.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Camera.cpp
+  EBO.cpp
+  Mesh.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Mesh.cpp(53,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Mesh.cpp(57,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Object.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Object.cpp(125,18): warning C4244: 'initializing': conversion from 'glm::vec<3,float,glm::packed_highp>::length_type' to 'float', possible loss of data
+  PhysicsObject.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\PhysicsObject.cpp(49,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\PhysicsObject.cpp(78,38): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  QuadTre.cpp
+  Shader.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Shader.cpp(9,18): warning C4390: ';': empty controlled statement found; is this the intent?
+  Shape.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Shape.cpp(142,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Shape.cpp(145,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\Shape.cpp(148,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+  stb.cpp
+  test.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\test.cpp(139,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\test.cpp(151,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\test.cpp(152,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\test.cpp(153,34): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  Texture.cpp
+  VAO.cpp
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\VAO.cpp(10,64): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  VBO.cpp
+  Generating Code...
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\QuadTre.cpp(136): warning C4715: 'QuadTre::find': not all control paths return a value
+C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\Render4\QuadTre.cpp(110): warning C4715: 'QuadTre::insert': not all control paths return a value
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Render4.vcxproj -> C:\Programmin_01\SpimOblig1_BouncingSpheres\SpimOblig1-BouningSpheres\x64\Debug\Oblig1Sim.exe
